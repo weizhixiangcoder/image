@@ -5,9 +5,11 @@
 正常使用密码登录时，不会出现上述问题， 因为keyring默认密码即用户登录密码，用户使用密码登录时，系统在登录验证用户身份后会使用登录密码继续进行keyring解锁验证，keyring锁会打开，从而当用户进入桌面后，可以直接使用keyring，但不会弹窗提示用户解锁keyring。
 
 设置密码时设定keyring Master key流程：
+
 ![图片](https://github.com/weizhixiangcoder/image/blob/main/keyring/normal_masterkey.png)
 
 密码登录时验证keyring流程：
+
 ![图片](https://github.com/weizhixiangcoder/image/blob/main/keyring/normal_login.png)
 
 根据PAM机制， 现提供两种非密码登录解锁keyring的方案。
