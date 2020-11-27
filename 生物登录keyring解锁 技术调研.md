@@ -60,7 +60,7 @@
 #### **一，用户设置密码时，修改Master key**
 
     a 用户设置密码
-    ![](https://github.com/weizhixiangcoder/image/blob/main/keyring/swrz_changepasswd.png)
+![](https://github.com/weizhixiangcoder/image/blob/main/keyring/swrz_changepasswd.png)
 
 #### **二，添加生物认证时，将Master key保存到生物设备中**
 
